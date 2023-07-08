@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Last Dance</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+	<link rel="stylesheet" href="css/fontello.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+<body>
+	<header>
+		<div class="container">
+			<!-- Logo + Menu -->
+			<div class="nav row rounded-top align-items-strech justify-content-between">
+				<!-- Logotipo -->
+					<div class="col-md-12 col-lg logo d-flex align-items-center justify-content-center justify-content-lg-start">
+						<a href="index.html" >
+							<h2>THE LAST DANCE</h2>
+						</a>	
+					<span class="icono icon-dot"></span>
+						<p>El Último Baile</p>
+					</div>
+					<!-- Menu -->
+					<nav class="col-md-12 col-lg-auto menu d-flex align-items-stretch flex-wrap flex-sm-nowrap">
+						<a href="episodios.html" class="c-1 d-flex align-items-center">
+							<div class="d-flex flex-column text-center">
+								<span>Episodios</span>
+							</div>
+						</a>
+						<a href="actores.html" class="c-2 d-flex align-items-center">
+							<div class="d-flex flex-column text-center">
+								<span>Actores</span>
+							</div>
+						</a>
+						<a href="foto.html" class="c-3 d-flex align-items-center">
+							<div class="d-flex flex-column text-center">
+								<span>Fotos</span>
+							</div>
+						</a>
+						<a href="blog.html" class="c-4 d-flex align-items-center">
+							<div class="d-flex flex-column text-center">
+								<span>Blog</span>
+							</div>
+						</a>
+						<a href="contacto.html" class="c-5 d-flex align-items-center">
+							<div class="d-flex flex-column text-center">
+								<span>Contacto</span>
+							</div>
+						</a>
+					</nav>
+				</div>
+	
+			<!-- Slider -->
+			<div class="row slider">
+				<div class="col">
+					<div class="carousel slide" data-bs-ride="carousel" id="slider">
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img class="d-block img-fluid" src="./img/Principal01.png" alt="">
+							</div>
+							<div class="carousel-item">
+								<img class="d-block img-fluid" src="./img/E1021.png" alt="">
+							</div>
+						</div>
+	
+						<button class="carousel-control-prev" type="button" data-bs-target="#slider" data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Anterior</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#slider" data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Siguiente</span>
+						</button>
+	
+						<div class="carousel-indicators">
+							<button 
+								type="button" 
+								data-bs-target="#slider" 
+								data-bs-slide-to="0" 
+								class="active" 
+								aria-current="true" 
+								aria-label="Slideshow 1"
+							></button>
+							<button 
+								type="button" 
+								data-bs-target="#slider" 
+								data-bs-slide-to="1"
+								aria-label="Slideshow 2"
+							></button>
+					</div>
+				</div>
+			</div>
+		</div>	
+	</header>
+
+    <main>
+		<div class="container">
+			<!-- Seccion foto -->
+			<div class="row foto">
+				<div class="col">
+					<h2 class="titulo">Fotos</h2>
+					<div class="row galeria justify-content-center">
+						<div class="contenedor-imagen col-6 col-lg-4">
+							<a href="#" data-toggle="modal" data-target="#modal">
+								<img src="img/LastCoupe.png" class="img-fluid imagen" alt="">
+							</a>
+						</div>
+						<div class="contenedor-imagen col-12 col-lg-8">
+							<a href="#" data-toggle="modal" data-target="#modal">
+								<img src="img/Fly.png" class="img-fluid imagen" alt="">
+							</a>
+						</div>
+						<div class="contenedor-imagen col-12 col-lg-8">
+							<a href="#" data-toggle="modal" data-target="#modal">
+								<img src="img/Dennis Rodman.jpg" class="img-fluid imagen" alt="">
+							</a>
+						</div>
+						<div class="contenedor-imagen col-6 col-lg-4">
+							<a href="#" data-toggle="modal" data-target="#modal">
+								<img src="img/E42.jpg" class="img-fluid imagen" alt="">
+							</a>
+						</div>
+						<div class="contenedor-imagen col-6 col-lg-4">
+							<a href="#" data-toggle="modal" data-target="#modal">
+								<img src="img/Ep5.jpg" class="img-fluid imagen" alt="">
+							</a>
+						</div>
+						<div class="contenedor-imagen col-6 col-lg-4">
+							<a href="#" data-toggle="modal" data-target="#modal">
+								<img src="img/E10.png" class="img-fluid imagen" alt="">
+							</a>
+						</div>
+						<div class="contenedor-imagen col-6 col-lg-4">
+							<a href="#" data-toggle="modal" data-target="#modal">
+								<img src="img/E7.jpg" class="img-fluid imagen" alt="">
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<footer>
+		<div class="container">
+			<div class="row redes-sociales justify-content-center">
+				<div class="col-auto">
+					<a href="#" class="icono icon-twitter twitter"></a>
+					<a href="#" class="icono icon-instagram instagram"></a>
+					<a href="#" class="icono icon-facebook facebook"></a>
+				</div>
+			</div>
+		</div>
+	</footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
